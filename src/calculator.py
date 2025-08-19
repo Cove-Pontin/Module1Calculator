@@ -11,17 +11,21 @@ class Calculator:
     DELTA = 0.0000000001
 
     @staticmethod
-    def add(a, b): 
-        return 0
+    def add(a, b):
+        c = a + b;
+        return c
     
     @staticmethod
-    def subtract(a, b): 
-        return 0
+    def subtract(a, b):
+        c = a - b
+        return c
 
     @staticmethod
-    def multiply(a, b): 
-        return 0
+    def multiply(a, b):
+        c = a * b
+        return c
 
     @staticmethod
     def divide(a, b): 
-        return 0
+        c = a / b
+        return c
